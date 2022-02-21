@@ -94,6 +94,7 @@ body {
 }
 .videoContainer video {
   /* border: 1px solid red; */
+  /* width: 70%; */
 }
 
 .videoContainer #textContainer {
@@ -434,14 +435,15 @@ img {
   font-family: 'Poppins';
   bottom: 0%;
   width: 100%;
-  background-color: rgba(85, 85, 85, 0.1);
+  background-color: rgba(85, 85, 85, 0.3);
   padding: 2%;
   z-index: 100;
 }
 
 .imageInfo a {
   background-color: red;
-  padding: 5px;
+  margin-top: 5px;
+  padding: 3px;
   font-weight: bold;
   border-radius: 3px;
 }
