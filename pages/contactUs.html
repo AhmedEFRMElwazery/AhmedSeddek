@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Ahmed Seddek | Awards</title>
+  </head>
+  <body>
+    <div class="siteLongImage">
+      <div class="logoContainer">
+        <a href="/">
+          <img
+            id="logo"
+            class="nameLogoAndSlogan"
+            src="/resources/imgs/logoNameSlogan/5_logoNameSlogan.PNG"
+            alt="logo, name and slogan"
+        /></a>
+      </div>
+      <div class="socialMedia">
+        <a target="_blank" href="https://www.facebook.com/ahmed.seddek.94/"
+          ><img
+            src="/resources/imgs/socialMediaIcons/golden-Facebook-logo-icon-png-removebg-preview.png"
+            alt=""
+        /></a>
+        <a target="_blank" href="https://twitter.com/Ahmedseddek5"
+          ><img
+            src="/resources/imgs/socialMediaIcons/Golden-Twitter-logo-icon-PNG-removebg-preview.png"
+            alt=""
+        /></a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/ahmed-seddek-422048b9/"
+          ><img
+            src="/resources/imgs/socialMediaIcons/Golden-Linkedin-logo-icon-PNG-removebg-preview.png"
+            alt=""
+        /></a>
+      </div>
+      <img
+        class="personalImage"
+        src="/resources/imgs/personalImage.jpg"
+        alt="personal image"
+      />
+    </div>
+    <div class="contentSide">
+      <header>
+        <nav class="navMenu">
+          <a href="/"><span>Home</span></a>
+          <a href="/pages/about.html"><span> About </span></a>
+          <a href="/pages/awards.html"><span> Awards </span></a>
+          <a href="/pages/inTheMedia.html"><span>In The Media</span></a>
+          <a href="/pages/contactUs.html"
+            ><span class="selectedTab">Contact</span></a
+          >
+        </nav>
+      </header>
+      <div class="awardsContainer">
+        <div class="formAligner"></div>
+        <form
+          action="https://formsubmit.co/ahmed.e.fawky@gmail.com"
+          method="POST"
+          class="contactForm"
+        >
+          <label for="Name">
+            Name
+            <input
+              type="text"
+              name="name"
+              id="Name"
+              required
+              placeholder="wirte your name here..."
+          /></label>
+          <label for="Email">
+            Email
+            <input
+              type="email"
+              name="email"
+              id="Email"
+              required
+              placeholder="add your email address..."
+          /></label>
+          <label for="Phone">
+            Phone
+            <input
+              type="phone"
+              name="phone"
+              id="Phone"
+              required
+              placeholder="your phone number here, with the country code..."
+          /></label>
+          <label for="Message">
+            Message
+            <textarea
+              type="textarea"
+              name="message"
+              id="Message"
+              rows="4"
+              cols="38"
+              placeholder="leave your message here...Looking forward to hearing from you!"
+              required
+            ></textarea
+            >></label
+          >
+          <input
+            type="hidden"
+            name="_next"
+            value="http://www.ahmedseddek.com/pages/formSubmitted.html"
+          />
+          <input
+            type="hidden"
+            name="_subject"
+            value="New message from ahmedseddek.com"
+          />
+          <input type="hidden" name="_template" value="box" />
+          <!-- <input
+            type="hidden"
+            name="_cc"
+            value="ahmed.e.f.r.mohammed@gmail.com"
+          /> -->
+          <input type="hidden" name="_captcha" value="false" />
+          <input
+            type="hidden"
+            name="_autoresponse"
+            value="Thank you for contacting me...Your message is well received...Will be in touch with you soon...
+            Kind regards,
+            Ahmed"
+          />
+
+          <button type="submit" class="btn-contact-form">Send</button>
+        </form>
+      </div>
+    </div>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
