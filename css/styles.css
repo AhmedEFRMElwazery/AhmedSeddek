@@ -163,6 +163,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  font-family: 'Poppins';
+}
+#landingPageFooter p {
+  margin: 0;
+}
+
+#landingPageFooter p:nth-child(2) {
+  font-size: 12px;
 }
 
 video {
