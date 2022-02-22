@@ -180,86 +180,8 @@ video {
   top: 50%;
 }
 
-.shimmer {
-  text-align: center;
-  color: rgba(255, 255, 255, 0.1);
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#222),
-    to(#222),
-    color-stop(0.5, #fff)
-  );
-  background: -moz-gradient(
-    linear,
-    left top,
-    right top,
-    from(#222),
-    to(#222),
-    color-stop(0.5, #fff)
-  );
-  background: gradient(
-    linear,
-    left top,
-    right top,
-    from(#222),
-    to(#222),
-    color-stop(0.5, #fff)
-  );
-  -webkit-background-size: 125px 100%;
-  -moz-background-size: 125px 100%;
-  background-size: 125px 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
-  -webkit-animation-name: shimmer;
-  -moz-animation-name: shimmer;
-  animation-name: shimmer;
-  -webkit-animation-duration: 20s;
-  -moz-animation-duration: 20s;
-  animation-duration: 20s;
-  -webkit-animation-iteration-count: infinite;
-  -moz-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-color: #222;
-}
-@-moz-keyframes shimmer {
-  0% {
-    background-position: top left;
-  }
-  100% {
-    background-position: top right;
-  }
-}
-@-webkit-keyframes shimmer {
-  0% {
-    background-position: top left;
-  }
-  100% {
-    background-position: top right;
-  }
-}
-@-o-keyframes shimmer {
-  0% {
-    background-position: top left;
-  }
-  100% {
-    background-position: top right;
-  }
-}
-@keyframes shimmer {
-  0% {
-    background-position: top left;
-  }
-  100% {
-    background-position: top right;
-  }
-}
-
 .siteLongImage {
+  /* border: 1px solid red; */
   height: 100%;
   width: 30%;
   display: flex;
@@ -272,12 +194,35 @@ video {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 
 .nameLogoAndSlogan {
   height: auto;
   width: 35%;
 }
+
+/* .logoContainer a:before {
+  content: '';
+  position: absolute;
+  background: rgba(255, 255, 255, 0.3);
+  top: 0;
+  left: 0;
+  width: 3vh;
+  height: 30vh;
+  z-index: 1000000;
+  transform: skewX(-30deg);
+  animation: shimmeringBy 5s infinite linear;
+}
+
+@keyframes shimmeringBy {
+  100% {
+    left: 27vw;
+  }
+} */
 
 .personalImage {
   height: auto;
