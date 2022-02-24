@@ -8,24 +8,6 @@
     url('/resources/fonts/webfonts_ASTERA/ASTERA.ttf.svg') format('svg');
 }
 
-@font-face {
-  font-family: 'ElementalEnd';
-  src: url('/resources/fonts/webfonts_ElementalEnd/ElementalEnd.ttf.eot');
-  src: url('/resources/fonts/webfonts_ElementalEnd/ElementalEnd.ttf.woff')
-      format('woff'),
-    url('/resources/fonts/webfonts_ElementalEnd/ElementalEnd.ttf.svg')
-      format('svg');
-}
-
-@font-face {
-  font-family: 'Vermin Vibes';
-  src: url('/resources/fonts/webfonts_Vermin-Vibes-3/Vermin-Vibes-3.ttf.eot');
-  src: url('/resources/fonts/webfonts_Vermin-Vibes-3/Vermin-Vibes-3.ttf.woff')
-      format('woff'),
-    url('/resources/fonts/webfonts_Vermin-Vibes-3/Vermin-Vibes-3.ttf.svg')
-      format('svg');
-}
-
 *,
 *::after,
 *::before {
