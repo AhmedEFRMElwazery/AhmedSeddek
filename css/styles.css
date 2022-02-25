@@ -171,6 +171,11 @@ video {
   top: 50%;
 }
 
+#emphasised-cv {
+  /* text-decoration: underline; */
+  /* background-color: #fcf4a5; */
+}
+
 .siteLongImage {
   /* border: 1px solid red; */
   height: 100%;
