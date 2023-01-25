@@ -7,4 +7,4 @@ Please feel free to visit it on https://ahmedseddek.netlify.app/ to further expl
 
 Here is an animated screenshoot of the landing page.
 
-![AnimatedScreenshotOfLandingPage]("an animated screenshoot of the landing page" /resources/imgs/GifOfLandingPage4.gif)
+![AnimatedScreenshotOfLandingPage](https://github.com/AhmedEFRMElwazery/AhmedSeddek/blob/77a30e83604c1e8b580eda3cf62941bf2a79075d/resources/imgs/GifOfLandingPage4.gif)
