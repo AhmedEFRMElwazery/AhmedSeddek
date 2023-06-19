@@ -5,6 +5,6 @@ This is a personal landing page for a consultant to showcase his progress and ac
 Please feel free to visit it on https://ahmedseddek.netlify.app/ to further explore the features of the website...
 
 
-Here is an animated screenshoot of the landing page (`**wait for it, it takes a few moments to load**`).
+Here is an animated screenshoot of the landing page (**`wait for it, it takes a few moments to load`**).
 
 ![AnimatedScreenshotOfLandingPage](https://github.com/AhmedEFRMElwazery/AhmedSeddek/blob/77a30e83604c1e8b580eda3cf62941bf2a79075d/resources/imgs/GifOfLandingPage4.gif)
