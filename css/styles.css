@@ -561,6 +561,26 @@ img {
   background-image: linear-gradient(#bb9556, #fcf4a5);
 }
 
+@media only screen and (orientation:portrait){
+  html {  
+    height: 100vw;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+}
+@media only screen and (orientation:landscape){
+  html {  
+     -webkit-transform: rotate(0deg);
+     -moz-transform: rotate(0deg);
+     -o-transform: rotate(0deg);
+     -ms-transform: rotate(0deg);
+     transform: rotate(0deg);
+  }
+}
+
 .home-back:hover {
   background-image: linear-gradient(#b4863c, #f8eb78);
 }
